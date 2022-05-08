@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monkey Search</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel="icon" type="image/x-icon" href="./favicon-32x32.png">
+    <style>
+        /* Css Part */
+        li a:hover {
+            color: brown;
+        }
+
+        li a {
+            font-weight: bolder;
+            /* text-shadow: 1px 1px 1px #000000; */
+            color: black
+        }
+
+
+
+        /* input[type='search']:focus {
+            border: 2px solid blueviolet;
+            border-radius: 12px;
+        } */
+
+        input[type='submit'] {
+            font-weight: bolder;
+        }
+
+        li a {
+            color: white;
+
+        }
+
+        /* input[type='search'] {
+            border-radius: 12px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        } */
+        /* Background Image For Content Except Footer */
+        /* .main {
+            background-image: url('https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4wHfW?ver=298f');
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+        } */
+
+        #logo {
+            border-radius: 12px;
+        }
+
+
+        #bg-vdo {
+            position: relative;
+            z-index: -1;
+        }
+
+        /* Css End */
+    </style>
+</head>
+
+<body>
+    <!-- Main Content -->
+    <div class="main">
+        <div class="container-fluid ">
+            <video class="w-100 " autoplay loop muted poster="./img1.jpeg" id="bg-vdo">
+                <source src="./msv.mp4" type="video/mp4">
+            </video>
+            <div class="row ">
+                <div class="col-md-12 my-5 fixed-top ">
+                   <img  src="./msl.jpeg"  alt="" width="200px" height="120px" style="transform: translateY(-40px); margin-left: 10px; ">
+                    <ul class="list-unstyled " style="margin-left:1300px; transform: translateY(-150px);">
+                        <i class='fa fa-home'></i>
+                        <li class="list-inline-item"><a href="" style="text-decoration:none;">Home</a></li>
+                        <i class='fa fa-user'></i>
+                        <li class="list-inline-item"><a href="" style="text-decoration:none;">Account</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="row " style="transform: translateY();">
+                <div class="col-md-12 " align="center">
+                    <div class="search-box fixed-top">
+                        <h1 class="" align="ceneter" style="font-size: 80px;"><b class="text-white">Monkey</b> <b
+                                class="text-danger">Search</b></h1>
+                        <p class="  text-white" style="font-size: 20px;">Search Your Favourite Things,With <b
+                                class="text-success">ONE CLICK</b> </p>
+                
+                    <select class="p-1" style="width: 130px;">
+                        <option selected>Video</option>
+                        <option value="2">Images</option>
+                        <option value="3">Songs</option>
+                    </select>
+                    <input class="p-1 w-75" type="search" name="search" id="" placeholder="Search Here"> <button
+                        class="p-1 bg-primary" type="submit" style="width: 100px;"><i class="fa fa-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- End Of Main Content -->
+    <div class="container-fluid bg-dark">
+        <div class="row">
+            <div class="col-md-3 my-4 text-white">
+                <img src="./msl.jpeg" alt="" width="120px" height="120px"> <a class="text-decoration-none text-white"
+                    href="">Monkey Search</a> <br>
+                <i class='fa fa-location-arrow text-white'></i> Dsms Boy's Hostel,Durgapur,West Bengal
+                <i class='fas fa-mail-bulk'></i>
+                <a href="" class="text-decoration-none text-white">monkeysearch@gmail.com</a> <br>
+                <a href="" style="font-size: x-large;"><i class='fa fa-facebook-official'> &nbsp; &nbsp; </i></a> <a
+                    href="" style="font-size: x-large;"><i class='fa fa-instagram'></i></a> &nbsp; &nbsp; <a href=""
+                    style="font-size: x-large;"><i class='fa fa-twitter'></i></a>
+            </div>
+            <div class="col-md-2 my-4">
+                <h3> <a href="" class="text-decoration-none">Company</a> </h3>
+                <ul class="list-unstyled text">
+                    <li><a class="text-decoration-none" href="">About Us</a></li>
+                    <li><a class="text-decoration-none" href="">Terms and Conditions</a></li>
+                    <li><a class="text-decoration-none" href="">Privacy Policy</a></li>
+                    <li><a class="text-decoration-none" href="">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2 my-4">
+                <h3> <a href="" class="text-decoration-none">Technology</a> </h3>
+                <ul class="list-unstyled text">
+                    <li><a class="text-decoration-none" href="">HTML,CSS</a></li>
+                    <li><a class="text-decoration-none" href="">Bootstrap</a></li>
+                    <li><a class="text-decoration-none" href=""> Python</a></li>
+                    <li><a class="text-decoration-none" href="">MySql</a></li>
+                </ul>
+            </div>
+            <div class="col-md-5 my-4">
+                <h3> <a href="" class="text-decoration-none">Monkey Search</a> </h3>
+                <p class="text-white">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio reprehenderit rerum sed quaerat
+                    laborum modi placeat, magni id mollitia? Obcaecati ullam libero facilis adipisci officia aperiam
+                    iste nobis aliquid ipsam!
+                </p>
+            </div>
+        </div>
+       <div class="copyright text-danger" align="center">
+        Made By Koushik,Debpriya,Shahabaz & Mainak....
+        &copy;2022 Monkey Search
+       </div>
+    </div>
+
+</body>
+
+</html>
